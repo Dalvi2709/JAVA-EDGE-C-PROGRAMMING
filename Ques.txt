@@ -1,0 +1,10 @@
+Libraries Definition and use
+what is format specifiers
+history and features
+return 0 and return 1
+what is getch
+void and int and its return types
+rules for creating variables 
+Keywords and ANSI Standard
+Datatype why use and its types and sizes and ranges
+enum and its use 
