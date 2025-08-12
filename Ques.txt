@@ -8,3 +8,7 @@ rules for creating variables
 Keywords and ANSI Standard
 Datatype why use and its types and sizes and ranges
 enum and its use 
+control statement devidation
+flowchart terminologies and basic programs
+swap two variables program using input from users in 1 line
+differnce between if else if and switch cases which one is better
