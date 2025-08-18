@@ -3,9 +3,9 @@
 //  With Recurrion
 int add(int num) //10
 {
-    if (num == 0 || num == 1)
+    if (num == 0)
     {
-       return 1;
+       return 0;
     }else
     {
         return num + add(num-1);  
@@ -14,7 +14,6 @@ int add(int num) //10
 
 int main()
 {
-    add(10);
-    printf("Addition is : %d ", add(10));
+    printf("Addition is : %d ", add(1));
     return 0;
 }
