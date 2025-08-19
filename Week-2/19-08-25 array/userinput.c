@@ -9,11 +9,15 @@ int main (){
     {
        scanf("\n%d",& arr[i]);
     }
-    printf("Elements are : ");
+
+    int sum = 0;
+    // printf("Elements are : ");
     for (int i = 0; i < 3; i++)
     {
-        printf("\n %d", arr[i]);
+       sum += arr[i];
     }
+
+     printf("\n Addition is : %d", sum);
      
     return 0;
 }
