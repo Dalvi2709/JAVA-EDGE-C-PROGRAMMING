@@ -10,7 +10,7 @@ int main (){
     int a = 10;
     printf(" \n Before Adding a = %d ",a); //10
 
-    show(&a); // call By Value.
+    show(&a); // call By refernce.
     printf(" \n After Adding a = %d ",a); //20   modified the value beacause we use Address 
 
     return 0;
