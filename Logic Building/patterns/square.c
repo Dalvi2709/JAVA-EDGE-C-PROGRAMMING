@@ -66,20 +66,20 @@ int main()
     //    456  def
     //    789  ghi
     
-    // int c = 1;
-    // char ch = 'a';
-    // for (int i = 1; i <= 3; i++)
-    // {
-    //     for (int j = 1; j <= 3; j++)
-    //     {
+    int c = 1;
+    char ch = 'a';
+    for (int i = 1; i <= 3; i++)
+    {
+        for (int j = 1; j <= 3; j++)
+        {
 
-    //         // printf("%d", c);
-    //         printf("%c",ch);
-    //         // c = c + 1;
-    //         ch++;
-    //     }
-    //     printf("\n");
-    // }
+            // printf("%d", c);
+            printf("%c",ch);
+            // c = c + 1;
+            ch++;
+        }
+        printf("\n");
+    }
 
     return 0;
 }
