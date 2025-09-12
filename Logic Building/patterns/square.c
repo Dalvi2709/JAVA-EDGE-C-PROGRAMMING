@@ -33,16 +33,16 @@ int main()
         printf("\n");
     }
 
-    // char ch = 'A';
-    // for (int i = 1; i <= n; i++)
-    // {
-    //     for (int j = 1; j <= n; j++)
-    //     {
-    //         printf("%c", ch);
-    //     }
-    //     printf("\n");
-    //     ch++;
-    // }
+    char ch = 'A';
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            printf("%c", ch);
+        }
+        printf("\n");
+        ch++;
+    }
 
     // 12345  ABCDE  abcde
     // 12345  ABCDE  abcde
@@ -50,17 +50,17 @@ int main()
     // 12345  ABCDE  abcde
     // 12345  ABCDE  abcde
 
-    // char ch = 'A';
-    // for (int i = 1; i <= n; i++)
-    // {
-    //     for (int j = 1; j <= n; j++)
-    //     {
-    //         printf("%c", ch);
-    //         ch++;
-    //     }
-    //     printf("\n");
-    //     ch = 'A';
-    // }
+    char ch = 'A';
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            printf("%c", ch);
+            ch++;
+        }
+        printf("\n");
+        ch = 'A';
+    }
 
     //    123  abc
     //    456  def
