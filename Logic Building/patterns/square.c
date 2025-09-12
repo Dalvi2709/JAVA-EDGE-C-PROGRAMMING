@@ -24,14 +24,14 @@ int main()
     // 44444  DDDDD
     // 55555  EEEEE
 
-    // for (int i = 1; i <= n; i++)
-    // {
-    //     for (int j = 1; j <= n; j++)
-    //     {
-    //         printf("%d",i);
-    //     }
-    //     printf("\n");
-    // }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            printf("%d",i);
+        }
+        printf("\n");
+    }
 
     // char ch = 'A';
     // for (int i = 1; i <= n; i++)

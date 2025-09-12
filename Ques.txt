@@ -12,3 +12,43 @@ control statement devidation
 flowchart terminologies and basic programs
 swap two variables program using input from users in 1 line
 differnce between if else if and switch cases which one is better
+increment , decrement, pre and post.
+number series program.
+sum() readymade function
+differnce between method and function
+local variables and global/public variables
+static variables 
+call by value and call by reference.
+actual parameters and formal parameters.
+why we use pointers in callByRefernce.
+function recurresion 
+why we use the recurresion in any programs.
+fatorial and addition using recurrsion
+Array its advantages and disadvantages
+array size related ques.
+array types
+jagged array explain 
+sort the array in ascending and descending
+1 search the elemets
+2 swap the array elemets.
+3 Write a program to find the maximum and minimum element in an array.
+4 Write a program to reverse an array.
+5 Write a program to count the frequency of each element in an array.
+6 Write a program to search an element in an array.
+7 Write a program to remove duplicate elements from an array.
+string in c 
+string header file string.h
+gets and puts in string
+parameterize functions or methods of string
+differnce between literal and char Array
+write a programs without using functions
+ASCII value Range a-z,A-Z,0-9   
+1 Write a program to check whether a given string is a palindrome.
+   eg. madam
+2 Take a string as input and count how many words are present.
+3 Remove Consecutive Duplicate Characters
+   eg. Input: "aaabbccccdaa" Output: "abcda"
+4 Find Length of a String without strlen()
+5 Copy One String to Another without strcpy()
+6 Reverse a String without strrev()
+7 Count Frequency of Each Character
