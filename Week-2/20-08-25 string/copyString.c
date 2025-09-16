@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <string.h>
-
 void main()
 {
     char str1[10] = "Roshan";
