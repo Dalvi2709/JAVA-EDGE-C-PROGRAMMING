@@ -13,6 +13,7 @@ int test(int arr[], int size, int target)
     return -1; // if not found
 }
 
+
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void show (int *num){
     printf(" \n Before Adding num = %d ",*num); // 10
     *num = *num + 10;
