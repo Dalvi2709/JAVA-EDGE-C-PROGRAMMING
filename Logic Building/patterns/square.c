@@ -65,7 +65,7 @@ int main()
     //    123  abc
     //    456  def
     //    789  ghi
-    
+
     // int c = 1;
     // char ch = 'a';
     // for (int i = 1; i <= 3; i++)
@@ -87,7 +87,6 @@ int main()
     // *   *
     // *****
 
-
     // for (int i = 1; i <= n; i++)
     // {
     //     for (int j = 1; j <= n; j++)
@@ -95,20 +94,19 @@ int main()
     //         if (i==1 || i == n || j == 1 || j == n)
     //         {
     //             printf("*");
-    //         }else 
+    //         }else
     //         {
     //             printf(" ");
     //         }
     //     }
-    //         printf("\n");        
+    //         printf("\n");
     // }
-    
 
-    //11111
-    //00000
-    //11111
-    //00000
-    //11111
+    // 11111
+    // 00000
+    // 11111
+    // 00000
+    // 11111
 
     // for (int i = 1; i <= n; i++)
     // {
@@ -121,7 +119,7 @@ int main()
     //             printf("1");
     //         }
     //     }
-        
+
     //     printf("\n");
     // }
 
@@ -131,33 +129,59 @@ int main()
     // 01010
     // 10101
 
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= n; j++)
+    //     {
+    //          if (i % 2 != 0)
+    //          {
+    //             if (j % 2 != 0)
+    //             {
+    //                 printf("1");
+    //             }else{
+    //                 printf("0");
+    //             }
+
+    //          }else{
+    //             if (j % 2 != 0)
+    //             {
+    //                 printf("0");
+    //             }else{
+    //                 printf("1");
+    //             }
+
+    //          }
+
+    //     }
+    //     printf("\n");
+
+    // }
+
+    // 54321
+    // 12345
+    // 54321
+    // 12345
+    // 54321
+
     for (int i = 1; i <= n; i++)
     {
+        int a = 5;
         for (int j = 1; j <= n; j++)
         {
-             if (i % 2 != 0)
-             {
-                if (j % 2 != 0)
-                {
-                    printf("1");
-                }else{
-                    printf("0");
-                }
-                
-             }else{
-                if (j % 2 != 0)
-                {
-                    printf("0");
-                }else{
-                    printf("1");
-                }
-                
-             }
-             
+
+            if (i % 2 == 0)
+            {
+                printf("%d", j);
+            }
+            else
+            {
+                printf("%d", a);
+                a = a - 1;
+            }
         }
+
         printf("\n");
-        
     }
-    
+
     return 0;
-}   
+}
