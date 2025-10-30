@@ -2,7 +2,7 @@
 #include <conio.h>
 int main()
 {
-    printf("Enter the number");
+    printf("Enter the number"); 
     scanf("%d",&n);
 
     int digit,reversed;
