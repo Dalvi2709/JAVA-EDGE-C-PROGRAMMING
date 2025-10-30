@@ -5,7 +5,7 @@ int main()
     printf("Enter the num"); 
     scanf("%d",&n);
 
-    int digit,reversed,j;
+    int digit,reversed;
     while (n != 0)
     {
         digit = n % 10;
