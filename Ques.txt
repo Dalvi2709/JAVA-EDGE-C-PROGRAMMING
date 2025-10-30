@@ -42,7 +42,7 @@ gets and puts in string
 parameterize functions or methods of string
 differnce between literal and char Array
 write a programs without using functions
-ASCII value Range a-z,A-Z,0-9   
+ASCII value Range a-z,A-Z, 0-9   
 1 Write a program to check whether a given string is a palindrome.
    eg. madam
 2 Take a string as input and count how many words are present.
