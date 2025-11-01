@@ -3,7 +3,7 @@
 
 void main()
 {  
-    printf("Hello Roshan \n"); // new line or line break
+    printf("Hello Roshan \n"); // new line or line break 
     printf("Hello\tRakesh");  // add space tab
     
 }
